@@ -1,0 +1,277 @@
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    overflow: hidden;
+    background-color: #000000;
+    margin: 20px 0 0 0;
+    padding: 0;
+    border: 0;
+
+}
+
+/*variaveis*/
+:root {
+    --cinza-principal: #ffffff;
+    --bege-principal: #FFF6E0;
+    --cinza-medio: #ffffff;
+    --cinza-claro: #D8D9DA;
+    --fonte-calma: 'abel', serif;
+}
+.cabecalho__principal {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.295);
+    border: #00000000 solid 0px 0px -70px 0px;
+    width: 100%;
+    height: 10%;
+}
+
+
+
+.bg__main {
+    width: 100%;
+    filter: brightness(30%) blur(4px);
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+.logo {
+    margin: -60px 0px -5px -30px;
+    position: relative;
+    width: 15%;
+
+}
+
+.header__item {
+    box-shadow: #740000 5px 5px 0px;
+}
+
+
+
+.camisetas {
+    position: absolute;
+    font-size: 150%;
+    top: 3%;
+    left: 20%;
+    color: rgb(0, 0, 0);
+    font-family: var(--fonte-calma);
+    border: #000000 solid 1px;
+    background-color: rgb(255, 255, 255);
+    font-family: var(--fonte-calma);
+    transition: ease-out .1s;
+    padding: .6%;
+}
+.moletons {
+    position: absolute;
+    font-size: 150%;
+    top: 3%;
+    left: 30%;
+    color: rgb(0, 0, 0);
+    font-family: var(--fonte-calma);
+    background-color: rgb(255, 255, 255);
+    font-family: var(--fonte-calma);
+    border: #000000 solid 1px;
+    transition: ease-out .1s;
+    padding: .6%;
+}
+.calças {
+    position: absolute;
+    font-size: 150%;
+    top: 3%;
+    left: 40%;
+    color: rgb(0, 0, 0);
+    font-family: var(--fonte-calma);
+    border: #000000 solid 1px;
+    background-color: rgb(255, 255, 255);
+    font-family: var(--fonte-calma);
+    transition: ease-out .1s;
+    padding: .6%;
+}
+.acessorios {
+    position: absolute;
+    font-size: 150%;
+    top: 3%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    font-family: var(--fonte-calma);
+    background-color: rgb(255, 255, 255);
+    font-family: var(--fonte-calma);
+    border: #000000 solid 1px;
+    transition: ease-out .1s;
+    padding: .6%;
+}
+.camisetas:hover {
+    box-shadow: #740000 7px 7px 0px;
+    color: black;
+    transition: ease-in .1s;
+}
+.moletons:hover {
+    box-shadow: #740000 7px 7px 0px;
+    color: black;
+    transition: ease-in .1s;
+}
+.calças:hover {
+    box-shadow: #740000 7px 7px 0px;
+    color: black;
+    transition: ease-in .1s;
+}
+.acessorios:hover {
+    box-shadow: #740000 7px 7px 0px;
+    color: black;
+    transition: ease-in .1s;
+}
+
+
+
+
+
+.exp {
+    box-shadow: #740000 5px 5px 0px, #740000  5px 5px 0px 1.5px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 85%;
+    white-space: nowrap;
+    transform: translateX(-50%);
+    font-size: 4em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-family: var(--fonte-calma);
+    border: #000000 solid 1px;
+    padding: 0em .2em;
+    transition: ease-out .2s;
+}
+
+.exp:hover {
+    box-shadow: #ff0000 5px 5px 0px, #fbff00  7.5px 7.5px 0px 1px;
+    color: black;
+    transition: ease-in-out .1s;
+}
+
+
+
+
+
+
+
+
+.banner__1 {
+    display: flex;
+    position: absolute;
+    border: #000000 1px;
+    width: 20%;
+    height: 64%;
+    top: 25%;
+    left: 5%;
+    background-color: #ffffff;
+    box-shadow: #b60137 5px 5px 0px;
+    transition: ease-in-out .1s
+}
+
+.banner__2 {
+    display: flex;
+    position:absolute;
+    border: #000000 1px;
+    width: 40%;
+    height: 20%;
+    left: 30%;
+    top: 25%;
+    background-color: #ffffff;
+    box-shadow: #b60137 5px 5px 0px;
+    transition: ease-in-out .1s
+}
+.banner__3 {
+    display: flex;
+    position:absolute;
+    border: #000000 1px;
+    width: 40%;
+    height: 20%;
+    left: 30%;
+    top: 47%;
+    background-color: #ffffff;
+    box-shadow: #b60137 5px 5px 0px;
+    transition: ease-in-out .1s
+}
+
+.banner__4 {
+    display: flex;
+    position:absolute;
+    border: #000000 1px;
+    width: 40%;
+    height: 20%;
+    left: 30%;
+    top: 69%;
+    background-color: #ffffff;
+    box-shadow: #b60137 5px 5px 0px;
+    transition: ease-in-out .1s
+}
+
+.banner__5 {
+        display: flex;
+        position: absolute;
+        border: #000000 1px;
+        width: 20%;
+        height: 64%;
+        top: 25%;
+        left: 75%;
+        background-color: #ffffff;
+        box-shadow: #b60137 5px 5px 0px;
+        transition: ease-in-out .1s
+    }
+
+.banner__1:hover {
+    top: 24.5%;
+    left: 4.5%;
+    transition: ease-in-out .1s;
+    box-shadow: #b60137 15px 10px 0px;
+}
+
+.banner__2:hover {
+    display: flex;
+    position:absolute;
+    border: #000000 1px;
+    width: 40%;
+    height: 20%;
+    left: 29.5%;
+    top: 24.5%;
+    background-color: #ffffff;
+    box-shadow: #b60137 15px 10px 0px;
+    transition: ease-in-out .1s
+}
+
+.banner__3:hover {
+    display: flex;
+    position:absolute;
+    border: #000000 1px;
+    width: 40%;
+    height: 20%;
+    left: 29.5%;
+    top: 46.5%;
+    background-color: #ffffff;
+    box-shadow: #b60137 15px 10px 0px;
+    transition: ease-in-out .1s
+}
+
+.banner__4:hover {
+    display: flex;
+    position:absolute;
+    border: #000000 1px;
+    width: 40%;
+    height: 20%;
+    left: 29.5%;
+    top: 68.5%;
+    background-color: #ffffff;
+    box-shadow: #b60137 15px 10px 0px;
+    transition: ease-in-out .1s
+}
+
+.banner__5:hover {
+    top: 24.5%;
+    left: 74.5%;
+    transition: ease-in-out .1s;
+    box-shadow: #b60137 15px 10px 0px;
+}
